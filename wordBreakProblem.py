@@ -7,6 +7,6 @@ def wordBreak(s,dic):
                 segmented[i+1] = True
                 break
     return segmented[len(s)]
-s = "leetcode"
-dic = ["leet","code"]
+s = "myinterviewtrainer"
+dic = ["interview","my","trainer"]
 print wordBreak(s,dic)
